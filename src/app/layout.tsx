@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Providers } from "./providers";
 
 export const metadata: Metadata = {
   title: "Weather App",
@@ -14,7 +15,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {children}
+        <Providers>
+          <div className="text-center font-sans p-5 bg-sky-300 min-h-screen">
+            {children}
+          </div>
+        </Providers>
       </body>
     </html>
   );
