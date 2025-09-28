@@ -27,7 +27,7 @@ export default function HomePage() {
       <h1 className="text-blue-800 text-3xl font-normal mb-5">Weather App</h1>
       <SearchBar />
       {showNotification && (
-        <div className="bg-white rounded p-4 mt-2.5">
+        <div className="rounded p-4 mt-2.5">
           <p>Could not fetch weather data</p>
           <p>Please check the city name</p>
         </div>
