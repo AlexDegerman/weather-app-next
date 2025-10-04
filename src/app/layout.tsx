@@ -1,16 +1,16 @@
-import type { Metadata } from "next";
-import "./globals.css";
-import { Providers } from "./providers";
+import type { Metadata } from "next"
+import "./globals.css"
+import { Providers } from "./providers"
 
 export const metadata: Metadata = {
   title: "Weather App",
   description: "App to check weather of any city",
-};
+}
 
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
     <html lang="en">
@@ -22,5 +22,5 @@ export default function RootLayout({
         </Providers>
       </body>
     </html>
-  );
+  )
 }
