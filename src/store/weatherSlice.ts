@@ -13,7 +13,7 @@ export const fetchWeatherData = createAsyncThunk(
   'weather/fetchWeatherData',
   async (city: string, { rejectWithValue }) => {
     try {
-      const apiKey = process.env.WEATHER_API_KEY
+      const apiKey = process.env.NEXT_PUBLIC_WEATHER_API_KEY
       const url = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${city}&days=4&aqi=no&alerts=no`
       const response = await axios.get(url)
 
