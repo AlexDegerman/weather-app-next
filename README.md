@@ -1,7 +1,7 @@
 # 🌤️ Weather App – City Weather Lookup
 
 ## Overview
-A clean and intuitive weather application that allows users to check current weather conditions for any city worldwide. Features Google OAuth2 authentication and is powered by the WeatherAPI service.
+A clean and intuitive weather application that allows users to check current weather conditions and the next two days’ forecast for any city worldwide. Features Google OAuth2 authentication and is powered by the WeatherAPI service.
 
 <img src="./assets/weatherapp-homepage.png" alt="Weather App Homepage" width="200">
 
@@ -9,7 +9,7 @@ A clean and intuitive weather application that allows users to check current wea
 **[View Live Site](https://weather-app-next-rosy.vercel.app)** ⭐ Try it out without any setup!
 
 ## ✨ Key Features
-- 🔍 **City search** to get real-time weather data for any location
+- 🔍 **City search** to get real-time weather data and a 2-day forecast for any location
 - ☁️ **Current weather conditions** including temperature, humidity, and forecasts
 - 🔐 **Google OAuth 2.0 login** for personalized experience (displays username)
 - 📱 **Responsive interface** built with Tailwind CSS
