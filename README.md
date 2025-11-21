@@ -17,7 +17,7 @@ A clean and intuitive weather application that allows users to check current wea
 
 ## 🔧 Tech Stack
 **Frontend:** React • TypeScript • Next.js • Tailwind CSS  
-**State Management:** Redux  
+**State Management:** Redux Toolkit
 **API:** WeatherAPI  
 **Authentication:** OAuth 2.0 (Google) • NextAuth.js  
 **Testing:** Jest  
